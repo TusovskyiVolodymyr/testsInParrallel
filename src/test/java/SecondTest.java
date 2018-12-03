@@ -42,6 +42,6 @@ public class SecondTest {
         WebElement webElement = driver.findElement(By.name("q"));
         webElement.sendKeys("Chandler");
         webElement.submit();
-
+        Thread.sleep(5000);
     }
 }
